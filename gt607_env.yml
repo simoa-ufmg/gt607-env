@@ -1,0 +1,39 @@
+name: gt607
+channels:
+  - conda-forge
+dependencies:
+  # - python=3.7
+  - opencv
+  - gdal
+  - jupyter
+  - matplotlib
+  - scikit-image
+  - imageio
+  - git
+  - pandas
+  - nb_conda
+  - pytest
+  - pytest-xdist
+  - pip
+  - requests
+  - packaging
+  - tqdm
+  - numpy
+  - xarray
+  - seaborn
+  - geopandas
+  - scipy
+  - pip:
+      - keplergl
+      - rasterio
+      - itertools
+      - affine
+      - pyproj
+      - pickle
+      - pysolar
+      - pyzbar
+      - mapboxgl
+      - pyexiftool<=0.4.13
+      - jenkspy
+      - rawpy
+      - xgboost==1.6.1
